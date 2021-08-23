@@ -1,0 +1,37 @@
+body {
+    background: url("https://cdn.pixabay.com/photo/2016/02/19/10/10/city-1209105_960_720.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+.container {
+    margin: 60px auto;
+    padding: 30px;
+    width: 400px;
+    height: 160px;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.business-card img {
+    float: left;
+}
+
+.username, .email, .download-cv {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.username span {
+    border-bottom: 2px solid red;
+    padding-bottom: 4px;
+}
+
+.email {
+    font-size: 15px;
+}
+
+.download-cv a {
+    color: crimson;
+    font-size: 14px;
+    text-decoration: none;
+}
